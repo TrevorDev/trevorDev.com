@@ -1,0 +1,30 @@
+<div class="navbar navbar-inverse navbar-default navbar-static-top" role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Trevor Baron</a>
+    </div>
+    <div class="navbar-collapse collapse" style="height: 1px;">
+      <ul class="nav navbar-nav">
+        <li <%- typeof(page)=='undefined'?'class="active"':'' %>>
+          <a href="/">Home</a>
+        </li>
+        <li <%- typeof(page)!='undefined'&&page=='projects'?'class="active"':'' %>>
+          <a href="/page/projects">Projects</a>
+        </li>
+        <li>
+          <a href="https://docs.google.com/document/d/1IxmCAwifqgyvPSH8_y4LvPTn7ffgFQ93yAnO7mJNmsE/edit?usp=sharing" target="_blank">Resume</a>
+        </li>
+        <li <%- typeof(page)!='undefined'&&page=='blog'?'class="active"':'' %>>
+          <a href="/page/blog">Blog</a>
+        </li>
+        <li <%- typeof(page)!='undefined'&&page=='about'?'class="active"':'' %>>
+          <a href="/page/about">About</a>
+        </li>
+      </ul>
+    </div>
+</div>

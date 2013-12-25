@@ -1,0 +1,58 @@
+/* FIX MOBILE SETTINGS */
+.navbar-fixed-top {
+    position: static;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+body {
+    min-width: 320px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/* FULLSCREEN CHAT */
+html, body, .message-app-wrapper{
+    height: 100%;
+    background-color: #6FC2CE;
+}
+#push,
+#footer {
+    height: 60px;
+}
+
+#footer {
+     background-color: #e6e6e6;
+     border-top: solid 1px #a6a6a6;
+}
+
+/* Custom page CSS */
+
+.hidden{
+                    display:none;
+}
+
+.container-wide {
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.container-wide .credit {
+    padding: 20px 0;
+}
+
+
+
+select {
+    border:1px solid #cccccc;
+    background-color: white;
+    height: 30px;
+    line-height: 30px;
+}
+
+textarea {
+    border:1px solid #cccccc;
+}
