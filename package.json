@@ -8,16 +8,9 @@
   	},
 	"private": true,
 	"dependencies": {
-		"nodemailer": "x.x",
 		"express": "x.x",
-		"bcrypt": "x.x",
-		"escape-html": "x.x",
 		"underscore": "x.x",
 		"rekuire": "x.x",
-		"crypto": "x.x",
-		"mysql": "x.x",
-		"ejs": "x.x",
-		"socket.io":"x.x",
-		"node-uuid": "x.x"
+		"ejs": "x.x"
 	}
 }
