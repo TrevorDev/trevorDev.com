@@ -1,4 +1,10 @@
 /* FIX MOBILE SETTINGS */
+.container-wide {
+    padding-left:20px;
+    padding-right:20px;
+    padding: 20px 0;
+}
+
 .navbar-fixed-top {
     position: static;
     margin-bottom: 0px;
