@@ -8,7 +8,7 @@
   	},
 	"private": true,
 	"dependencies": {
-		"express": "x.x",
+		"express": "3.4.7",
 		"underscore": "x.x",
 		"rekuire": "x.x",
 		"ejs": "x.x"
