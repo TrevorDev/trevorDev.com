@@ -73,3 +73,8 @@ exports.show = function(req, res){
 	res.template.page = req.params.page;
   res.render(req.params.page+'/index',res.template);
 };
+
+exports.showWorkterm = function(req, res){
+	res.template.page = req.params.page;
+  res.render('workterm/'+req.params.page+'/index',res.template);
+};
