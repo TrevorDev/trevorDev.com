@@ -1,0 +1,24 @@
+<% include ../includes/header %>
+	<div class="container-wide">
+    <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div style="text-align: center;font-size: 4.5em;font-weight:bold;"><div style="padding-bottom:10px;">Robot Ducky Debugging</b><br>
+      <img src="/public/assets/custom/img/robot_duck.png" width="200" height="200" alt="Trevor Baron Logo"></div>
+    </div>
+    
+    <form id="robotForm">
+	  <input type="text" id="text" style="width:100%;"><br>
+	</form>
+	<div id="textbox"></div>
+    </div>
+	</div>
+	<script>
+		
+		$('#robotForm').submit(function(event){
+
+			$('#textbox').html($("#text").val()+"<br>"+$('#textbox').html())
+			$("#text").val("")
+			event.preventDefault();
+		})
+	</script>
+<% include ../includes/footer %>
