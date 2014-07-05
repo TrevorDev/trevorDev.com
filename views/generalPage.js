@@ -3,6 +3,9 @@ exports.showGame = function(req, res){
 
 	switch(req.params.game)
 	{
+		case "tinystomp":
+			res.template.description = "Super awesome mmo game me and one of my pals made in our first year of university";
+			break;
 		case "arcadePlatformer":
 			res.template.description = "To get over the wall at the begining press down then up really quickly followed by an up at the peak of your height.";
 			break;
