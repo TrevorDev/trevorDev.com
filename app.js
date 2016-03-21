@@ -35,6 +35,6 @@ app.get('/public/*', function(req, res, next){
 
 routes.init(app);
 
-server.listen(3003);
+server.listen(3000);
 
 console.log("Started----------------------");
